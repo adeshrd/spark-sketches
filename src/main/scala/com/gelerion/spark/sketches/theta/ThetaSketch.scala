@@ -2,7 +2,7 @@ package com.gelerion.spark.sketches.theta
 
 import com.gelerion.spark.sketches.contract.TypedAggregationBuffer
 import org.apache.datasketches.memory.{Memory, WritableMemory}
-import org.apache.datasketches.{Family, ResizeFactor}
+import org.apache.datasketches.common.{Family, ResizeFactor}
 import org.apache.datasketches.theta.{SetOperation, Sketch, Sketches, Union, UpdateReturnState, UpdateSketch}
 import org.apache.spark.TaskContext
 import org.apache.spark.sql.types.{SQLUserDefinedType, ThetaSketchType}

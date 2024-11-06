@@ -1,6 +1,6 @@
 package com.gelerion.spark.sketches.theta
 
-import org.apache.datasketches.ResizeFactor
+import org.apache.datasketches.common.ResizeFactor
 
 /**
  * @param resizeFactor see https://datasketches.github.io/docs/Theta/ThetaSize.html

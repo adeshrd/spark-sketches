@@ -24,7 +24,7 @@ The project currently supports two types of sketches:
 <dependency> 
  <groupId>com.gelerion.spark.sketches</groupId> 
  <artifactId>spark-sketches</artifactId> 
- <version>1.0.0</version> 
+ <version>1.1.0</version> 
 </dependency>
 ```
 #### Versions compatibility Matrix
